@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unreal Engine</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">    
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Unreal Engine</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills custom-nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>    
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h1></h1>
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="https://cdn2.unrealengine.com/marketplace-june-sale-houseplants-1920x1080-4315ac723433.jpg">
+                            <div class="carousel-caption">
+                                <h2>Foto de casa na UE</h2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="https://cdn2.unrealengine.com/game-animation-sample-debug-1920x1080-0ac382686604.jpg?resize=1&w=1288">
+                            <div class="carousel-caption">
+                                <h2>Foto da animação de movimento</h2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="https://cdn2.unrealengine.com/unreal-engine-free-marketplace-july-2024-mediterranean-coast-1920x1080-3f3e6b14fe55.jpg?resize=1&w=1064">
+                            <div class="carousel-caption">
+                                <h2>Foto de ambiente na UE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="noticias">
+            <h1>Notícias</h1>
+            <div class="container">
+                <nav class="nav nav-pills teste">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Engine</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Jogos</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Blueprints</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_960_720.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title">Título do card</h4>
+                                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Botão Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_960_720.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title">Título do card</h4>
+                                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Botão Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_960_720.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title">Título do card</h4>
+                                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Botão Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn1.epicgames.com/f4a7772a4da24870a3ea6dfb8aeac662/offer/EGS_CommanderLiliththeFightforSanctuary_GearboxSoftware_DLC_S2-1200x1600-19350814b699d534577da5e40f16972e.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title highlight">Borderlands 2</h4>
+                                            <h5 class="card-subtitle highlight">Gearbox Software</h5>
+                                            <p class="card-text highlight">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Saber mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="images/mass.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title highlight">Mass Effect 3</h4>
+                                            <h5 class="card-subtitle highlight">BioWare</h5>
+                                            <p class="card-text highlight">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Saber mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn1.epicgames.com/offer/fn/Blade_1200x1600_1200x1600-fcea56f5eb92df731a89121e2b4416b5">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title highlight">Fortnite</h4>
+                                            <h5 class="card-subtitle highlight">Epic Games</h5>
+                                            <p class="card-text highlight">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Saber mais</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_960_720.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title">Título do card</h4>
+                                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Botão Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_960_720.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title">Título do card</h4>
+                                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Botão Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="card text-bg-dark">
+                                        <img src="https://cdn.pixabay.com/photo/2022/02/07/12/17/street-6999284_960_720.jpg">
+                                        <div class="card-img-overlay">
+                                            <h4 class="card-title">Título do card</h4>
+                                            <h5 class="card-subtitle">Subtítulo do Card</h5>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis 
+                                            </p>
+                                            <a href="#" class="btn btn-primary">Botão Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="promocoes">
+            <h1>Promoções</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        teste card
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis iure. Tempore, incidunt? Non inventore, reprehenderit accusamus eaque impedit ullam?
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        teste card
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis iure. Tempore, incidunt? Non inventore, reprehenderit accusamus eaque impedit ullam?
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        teste card
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do Card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex minima neque, mollitia dolor adipisci perspiciatis maxime molestiae fuga quis iure. Tempore, incidunt? Non inventore, reprehenderit accusamus eaque impedit ullam?
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+
+        </section>
+    </div>
+    
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

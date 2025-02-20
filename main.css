@@ -1,0 +1,139 @@
+.navbar-nav .nav-link.active {
+    color: #ccc;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    background-color: #101014;
+    /*padding-top: 70px;*/
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    z-index: 1000;
+}
+
+.teste {
+    padding: 10px;
+}
+
+.highlight {
+background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo do destaque */
+/*color: rgb(255, 255, 255); */
+padding: 0 5px; 
+border-radius: 3px; 
+}
+
+
+@media screen and (max-width: 767px) {
+    .conteudo {
+        display: block;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+    
+    .destaque .noticia a {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .destaque .noticia img {
+        margin-right: 0;
+    }
+    
+    .noticias {
+    display: block;
+    }
+    
+    .noticias .noticia {
+        margin-bottom: 32px
+    }
+
+    aside {
+        padding-left: 0;
+    }
+    
+    header div.container {
+        flex-direction: column;
+    }
+
+    .submenu {
+        display: block;
+        width: 100%;
+        border: none;
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .menu > li {
+        clear: both;
+    }
+    
+    .submenu li {
+        display: block;
+        padding: 8px;
+    }
+
+    .botao-menu{
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .botao-menu button{
+        padding: 8px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .confeiteira img{
+        max-width: 250px;
+    }
+
+    .arabesco,
+    .separador2{
+        display: none;
+    }
+
+    .redes, .form{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .confeiteira img{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 0 auto;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                    -6px -6px 10px -1px rgba(129, 107, 107, 0.7);
+        border-radius: 8px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .botao-menu {
+        display: none;
+    }
+}
